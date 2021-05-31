@@ -8,8 +8,6 @@ function preload(){
   snowBgImg = loadImage("snow1.jpg");
   boyImage = loadImage("child.png");
   snowmanImg = loadImage("Snowmans.jpg");
-  girlImg = loadImage("girl3.jpg");
-  girl2Img = loadImage("girl4.jpg");
 }
 function setup() {
   createCanvas(800,400);
@@ -21,9 +19,6 @@ function setup() {
 
   boy = createSprite(300,350);
   boy.addImage(boyImage);
-
-  girl = createSprite(500,350);
-  girl.addImage(girlImg);
   
   snowman = createSprite(100,350);
   snowman.scale = 1.5;
